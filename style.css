@@ -117,6 +117,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+	background-attachment: fixed;
 
 }
 
@@ -307,6 +308,7 @@ p.centertext {
   margin: 0 auto;
   padding-top: 18%;
   padding-bottom: 5%;
+	max-width: 130px;
 
 }
 
@@ -331,14 +333,7 @@ p.centertext {
   width: 100%;
 
 }
-/*div.skills {
-  background-image: url(images/clouds.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
 
-}*/
 .skills {
   width: 100%;
 }
@@ -363,10 +358,138 @@ p.centertext {
   background-image: url(images/clouds.jpg);
   background-size: cover;
   background-repeat: repeat;
-  /*color: rgba(0, 0, 0, 0.5);*/
+	background-attachment: fixed;
   z-index: 1;
 }
 #face {
   padding-top:8%;
   padding-bottom: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+	.logo {
+		padding-top: 6%;
+		padding-bottom: 3%;
+	}
+	h2.centertext {
+		margin-bottom: 6%;
+	}
+	h1.centertext {
+		margin-top: 2%;
+	}
+	div.headshot {
+		width: 40%;
+		height: 200px;
+		float: left;
+		margin: 0 auto;
+	}
+	div.hello.center.centertext {
+		width: 60%;
+		text-align: left;
+		margin: 0;
+		float: right;
+	}
+	img#face.logo {
+		margin: 0 auto;
+		margin-top: 10px;
+		width: 100%;
+	}
+	div.clearfix {
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+	div.jobdesc {
+		width: 28%;
+		margin: 0;
+		margin-left: 6%;
+		display: inline-block;
+	}
+	#secondjobdesc {
+		margin-top: 8%;
+	}
+	p.lefttext {
+		width: 60%;
+		margin: 0;
+		float: right;
+	}
+	p.lefttext + p.lefttext {
+		border: none;
+	}
+	#secondlefttext {
+		position: relative;
+		bottom: 60px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+	}
+	#secondjobdesc > .yellow {
+		border-top: 1px solid black;
+		line-height: 1.5;
+	}
+	.jobs {
+		text-align: left;
+	}
+	.work {
+		height: 300px;
+		margin-bottom: 3%;
+	}
+	h2#skills {
+		padding-top: 2%;
+		margin-top: 0;
+	}
+	.round {
+		height: 12.5vw;
+		width: 12.5vw;
+		font-size: 100%;
+	}
+	span {
+		top: 46px;
+	}
+	div.education {
+		text-align: left;
+	}
+	div.education > h2.caps.centertext {
+		text-align: left;
+	}
+	div.education > p.lefttext {
+		float: none;
+		width: 85%;
+		margin-left: 6%;
+		margin-top: 1%;
+		line-height: 1.2;
+	}
+	div.jobdesc > p.centertext {
+		text-align: left;
+	}
+	div.jobdesc > h3.yellow.centertext {
+		text-align: left;
+	}
+	li:first-of-type {
+		margin-left: 4%;
+	}
+	div#contact {
+		margin: 0;
+	}
+	p.caps.centertext.white {
+		margin: 0.5% 0;
+		margin-left: 28%;
+		text-align: left;
+	}
+	p.centertext.yellow.caps {
+		margin-bottom: 0.5%;
+	}
+	p.small.white.caps {
+		text-align: left;
+		width: 72%;
+		margin: 0;
+		padding-bottom: 3%;
+		margin: 0 auto;
+	}
+	div.icons {
+		text-align: right;
+		width: 85%;
+		position: relative;
+		bottom: 120px;
+
+	}
+
 }
